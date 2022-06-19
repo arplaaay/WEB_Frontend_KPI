@@ -7,64 +7,96 @@
     <meta name="keywords" content="Бистріцький, ІА-93, Артем" />
     <meta name="description" content="Інформація про студентку, Артема Бистріцького" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Бистріцький А.І., ІА-93, Лаб 5, Варіант 5</title>
+    <title>Бистріцький А.І., ІА-93, Лаб 6, Варіант 5</title>
   </head>
   <body>
-    <h2>Бистріцький Артем Ігорович</h2>
-    <p>Місце народження: 6 липня, 2002 року, м. Київ</p>
-    <p>
-      Освіта: Гімназія №34 "Либідь" ім. В. Максименка
-      <br />
-      <span style="display: block; margin-left: 50px; padding: 15px 0">НТУУ "КПІ", м. Київ</span>
-    </p>
+    <h2>Завдання 1</h2>
+    <div class="container-form">
+      <form class="info-form">
+        <label for="initials">ПІБ</label>
+        <input type="text" id="initials" />
 
-    <p>Хобі:</p>
-    <ul class="hoobbies-list">
-      <li id="blogging">Блогінг</li>
-      <li class="hobbies-list_programming">Програмування</li>
-      <li>Комп'ютерні ігри</li>
-    </ul>
+        <label for="faculty">Факультет</label>
+        <input type="text" id="faculty" />
 
-    <p>Улюблені фільми:</p>
-    <ol>
-      <li>Форсаж 1</li>
-      <li>Форсаж 2</li>
-      <li>Форсаж 3</li>
-      <li>Форсаж 4</li>
-      <li>Форсаж 5</li>
-      <li>Форсаж 6</li>
-      <li>Форсаж 7</li>
-      <li>Форсаж 8</li>
-      <li>Форсаж 9</li>
-      <li>Форсаж 10</li>
-      <li>Форсаж 11</li>
-    </ol>
+        <label for="date">Дата народження</label>
+        <input type="text" id="date" />
 
-    <p>
-      Будапе́шт (угор. Budapest) — місто на Дунаї, столиця Угорщини. 1873 року міста Пешт (угор. Pest — грубка), яке лежало на східному боці річки Дунай, Буда (лат. Buda) і Обуда (угор. Obuda, обидва —
-      на західному боці річки) було об'єднано в одне місто під назвою Будапешт.
-    </p>
+        <label for="address">Адреса</label>
+        <input type="text" id="address" />
 
-    <div class="container">
-      <a class="img-link" href="https://uk.wikipedia.org/wiki/%D0%91%D1%83%D0%B4%D0%B0%D0%BF%D0%B5%D1%88%D1%82">
-        <img class="img" src="./images/city.jpeg" alt="Будапешт" />
-      </a>
-      <ul class="button-list">
-        <li class="button-list__item">
-          <button class="button-list__btn btnAdd">Додати</button>
-        </li>
-        <li class="button-list__item">
-          <button class="button-list__btn btnIncrease">Збільшити</button>
-        </li>
-        <li class="button-list__item">
-          <button class="button-list__btn btnDecrease">Зменшити</button>
-        </li>
-        <li class="button-list__item">
-          <button class="button-list__btn btnDelete">Видалити</button>
-        </li>
-      </ul>
+        <label for="mail">E-mail</label>
+        <input type="text" id="mail" />
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="data">
+        <h2>Введені дані</h2>
+        <p id="data-initials"></p>
+        <p id="data-faculty"></p>
+        <p id="data-date"></p>
+        <p id="data-address"></p>
+        <p id="data-mail"></p>
+      </div>
     </div>
 
+    <h2>Завдання 2</h2>
+
+    <div class="container-table">
+      <input type="color" class="color-picker" />
+
+      <table>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td class="my-variant">5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>31</td>
+          <td>32</td>
+          <td>33</td>
+          <td>34</td>
+          <td>35</td>
+          <td>36</td>
+        </tr>
+      </table>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
